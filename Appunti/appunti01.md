@@ -18,3 +18,13 @@ Possono essere **statiche** o **dinamiche**:
 ```py
 lst = [i for i in range(1000) if i % 10 == 0]
 ```
+
+**Funzioni:**
+
+Una funzione è un **costrutto sintattico** che permette di raggruppare una serie di istruzioni.
+```py
+def a(arg1, arg2):
+  print(arg1 + ' ' + arg2)
+  return arg1 + ' ' + arg2
+```
+Se nessun valore di output è specificato, sarà automaticamente **None**
